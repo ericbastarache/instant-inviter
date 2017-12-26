@@ -1,8 +1,10 @@
 import React from 'react';
+import './Item.css';
 
-const item = () => {
+const item = (props) => {
+    console.log('item props', props);
     return (
-        <div>Test Item Component</div>
+        <li className="list-item">{props.children}</li>
     )
 }
 

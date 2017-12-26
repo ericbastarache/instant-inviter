@@ -11,7 +11,7 @@ class App extends Component {
         <Header headerText="Instant Inviter">
           Invite your friends instantly to your events!
         </Header>
-        <Inviter />
+          <Inviter />
         <Footer footerText="Copyright &copy; 2017"/>
       </div>
     );
